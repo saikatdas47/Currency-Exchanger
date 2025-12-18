@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Exchanger</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="card">
+        <h2>Currency Exchanger</h2>
+
+        <div class="field">
+            <label>Amount</label>
+            <input type="number" placeholder="Enter amount">
+        </div>
+        <div class="row">
+            <div class="field">
+                <label>From</label>
+                <img src="https://flagsapi.com/US/flat/64.png" id="imgFrom">
+
+                <div class="currency-box">
+                    <select name="from">
+                        <!-- <option value="USD">USD</option> -->
+                    </select>
+                </div>
+            </div>
+
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            <div class="field">
+                <label>To</label>
+                <img src="https://flagsapi.com/BD/flat/64.png" id="imgTo">
+
+                <div class="currency-box">
+                    <select name="to">
+                        <!-- <option value="USD">USD</option> -->
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="result">
+            Converted Amount
+        </div>
+
+        <button>Convert</button>
+    </div>
+
+
+    <script src="conlist.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
