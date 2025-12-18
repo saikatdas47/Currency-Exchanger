@@ -9,6 +9,7 @@ for (select of options) {
         select.append(newOption);
         if (select.name === "from" && currcode === "USD") {
             newOption.selected = true;
+        }
         if (select.name === "to" && currcode === "BDT") {
             newOption.selected = true;
         }
